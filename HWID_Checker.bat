@@ -26,4 +26,5 @@ wmic path Win32_NetworkAdapter where "PNPDeviceID like '%%PCI%%' AND NetConnecti
 echo GPU
 echo [92m------------[91m
 wmic PATH Win32_VideoController GET Description,PNPDeviceID
+echo press any key to exit
 exit
